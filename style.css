@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 50px;
+    justify-content: space-around;
+    display: flex;
+    background: #322e2e;
+    align-items: center;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: revert;
+}
